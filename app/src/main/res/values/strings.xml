@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PopularMovies</string>
+
+    <string name="search">Search</string>
+
+    <string name="error_message">
+        Failed to get results. Please try again.
+    </string>
+
+    <string name="tmdb_attribution">
+        This product uses the TMDb API but is not endorsed or certified by TMDb.
+        (www.themoviedb.org)
+    </string>
+
+</resources>
