@@ -15,7 +15,7 @@ b) **Picasso** library for handling image loading and caching (<http://square.gi
 
 * Download the all the files and subdirectories and import the project in the **Android Studio**.
 
-* Obtain an `API-key` from **The Movie DB** (<https://developers.themoviedb.org>) and set the value of `API_KEY` inside the `PopularMoviesPreferences` class.
+* Obtain an `API-key` from **The Movie DB** (<https://developers.themoviedb.org>) and set the value of `API_KEY` inside the `PopularMoviesPreferences` class. There is another more secure way for handling the `API-key`, storing it inside a new `gradle.properties` file, under the `.gradle` directory. The `git` will not add that file to the staging index. It will not be committed and pushed into a public repository, so protecting the key. See the instructions in the link <https://technobells.com/best-way-to-store-your-api-keys-for-your-android-studio-project-e4b5e8bb7d23>. (As always, first make an experience with a fake key, for confirming that it will not be at your public repository.)
 
 * Turn on the developer mode of your **Android** phone or tablet, and connect to the **Android Studio** <https://developer.android.com/studio/index.html>.
 
@@ -65,3 +65,5 @@ https://stackoverflow.com/questions/6150080/set-a-menu-item-as-checked-from-code
 https://futurestud.io/tutorials/picasso-placeholders-errors-and-fading
 
 https://www.youtube.com/watch?v=ocWtozJaFz0
+
+https://technobells.com/best-way-to-store-your-api-keys-for-your-android-studio-project-e4b5e8bb7d23
