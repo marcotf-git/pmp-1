@@ -9,8 +9,8 @@ import android.util.Log;
 public class PopularMoviesPreferences {
 
 
-    private static final String API_KEY = "API_KEY_HERE";
-
+    //private static final String API_KEY = "API_KEY_HERE";
+    private static final String API_KEY = "MY_MOVIE_DB_API_KEY";
 
     private static final String THEMOVIEDB_BASE_URL = "https://api.themoviedb.org/3/";
     private static final String PATH_POPULAR_MOVIES = "movie/popular";
