@@ -2,6 +2,8 @@ package com.example.android.popularmovies.data;
 
 import android.util.Log;
 
+import com.example.android.popularmovies.BuildConfig;
+
 
 /**
  * This class will store the main application preferences and url references.
@@ -10,7 +12,7 @@ public class PopularMoviesPreferences {
 
 
     //private static final String API_KEY = "API_KEY_HERE";
-    private static final String API_KEY = "MY_MOVIE_DB_API_KEY";
+    private static final String API_KEY = BuildConfig.MY_MOVIE_DB_API_KEY;
 
     private static final String THEMOVIEDB_BASE_URL = "https://api.themoviedb.org/3/";
     private static final String PATH_POPULAR_MOVIES = "movie/popular";
